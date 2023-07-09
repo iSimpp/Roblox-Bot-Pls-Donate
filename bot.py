@@ -3,7 +3,7 @@ import requests
 import pyscreeze
 
 url = 'https://api.quotable.io/random'
-image_to_detect = r"" # Between the "" put your file containing an image of you getting a 5 robux donation.
+image_to_detect = r"image"
 confidence_threshold = 0.7  # Set the minimum confidence level for image matching
 
 while True:
@@ -13,7 +13,8 @@ while True:
         data = response.json()
         phrase = data["content"]
 
-        matches = pyscreeze.locateAll(image_to_detect, confidence=confidence_threshold)
+        screenshot = pyscreeze.screenshot()
+        matches = pyscreeze.locateAll(needleImage=image_to_detect, haystackImage=screenshot, confidence=confidence_threshold)
 
         if len(list(matches)) > 0:
             pyautogui.press('/')
