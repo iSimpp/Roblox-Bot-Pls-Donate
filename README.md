@@ -32,3 +32,6 @@ Please note that this code assumes the availability of the required modules and 
 Feel free to customize the code according to your specific requirements.
 
 **Disclaimer:** This code is provided as a basic demonstration and may require additional error handling and edge case considerations depending on your specific use case.
+
+
+# Any bugs report to ``https://discord.gg/ymmcwwAYjB``
