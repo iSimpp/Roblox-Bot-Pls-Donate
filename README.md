@@ -11,7 +11,7 @@ This Python code demonstrates a basic functionality to create a bot that perform
 Before running this code, make sure you have the following:
 
 - Python installed on your system.
-- Required modules installed: `pyautogui`, `requests`, and `pyscreeze`. You can install them using `pip` with the command: `pip install pyautogui requests pyscreeze`.
+- Required modules installed: `pyautogui`, `requests`, and `pyscreeze`. You can install them using `pip` with the command: `pip install pyautogui requests pyscreeze discord_webhook`.
 
 ## Usage
 
